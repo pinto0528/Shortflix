@@ -1,0 +1,116 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.navbar.bg-custom {
+    background-color: #e50914;
+}
+.btn.btn-custom {
+    background-color: #ffffff;
+    color: #e50914;
+}
+.btn.btn-custom:hover {
+    background-color:#94060d;
+    color: #ffffff;
+}
+
+
+
+/* carrusel */
+#carouselExampleCaptions {
+    max-width: 1280px;
+    margin: -20px auto 20px auto;
+}
+
+.carousel {
+    width: 100%;
+}
+
+
+/* pelis */
+.row {
+    background-size: cover;
+    background-color: #e50914;
+    margin: 0px auto;
+    padding: 0px 10px 25px 10px ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+/* planes */
+.button {
+    display: flex;
+    width: 80vw;
+    max-width: 850px;
+    justify-content: center;
+    margin: 20px auto 20px 0;
+    padding: 10px 10px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #e50914;
+    color: #fff;
+}
+   
+.button img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* categorias */
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.categorias {
+    display: flex;
+}
+
+.category p{
+    margin-left: 5px;
+    color: #b7b7b7;
+    font-size: 50px;
+}
+
+#mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.circle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.circle-button:hover {
+    background-color: #742121;
+}
+

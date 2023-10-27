@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e6e6;
+}
+
+#title {
+    background-color: #f70808;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.plans {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.plan {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 300px; 
+}
+
+
+.subscription-form {
+    text-align: center;
+    margin: 20px;
+}
+
+.subscription-form h2 {
+    font-size: 24px;
+}
+
+.subscription-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #f70808;
+    color: white;
+}
+
+.navbar.bg-custom {
+    background-color: #e50914;
+}
+.btn.btn-custom {
+    background-color: #ffffff;
+    color: #e50914;
+}
+.btn.btn-custom:hover {
+    background-color:#94060d;
+    color: #ffffff;
+}
